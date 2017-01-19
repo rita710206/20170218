@@ -1,0 +1,230 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,p,blockquote{margin:0;padding:0;}
+/*table{border-collapse:collapse;border-spacing:0;}*/
+fieldset,img{border: 0;line-height: 0px;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+ol,ul {list-style:none;}
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+q:before,q:after{content:'';}
+body {margin:0;padding:0;font-family: 微軟正黑體;}
+body input{font-family: 微軟正黑體;}
+a{text-decoration:none;}
+.hide{clear:both;}
+.left{float:left;}
+.right{float:right;}
+.center{text-align: center;}
+.auto{text-align: center;margin-right: auto;margin-left: auto;width: 200px;}
+.autoa{text-align: center;margin-right: auto;margin-left: auto;width: 80px;}
+/* clearfix */
+.clearfix:before,.clearfix:after {display:table;line-height:0;content:"";}
+.clearfix:after {clear:both;}
+.clearfix {*zoom: 1; /*forIE*/}
+
+
+#Mnav {
+	display: block;
+	background-color: #000;
+	height: 30px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+#Mnav .logo {line-height: 0px;float: left;}
+#Mnav .logo img {
+	line-height: 0px;
+	height: 23px;
+	width: 60px;
+	margin-top: 4px;
+	margin-right: 5px;
+	margin-left: 10px;
+}
+#Mnav a {color: #333;text-decoration: none;}
+#Mnav a:hover {color: #F60;}
+#Mnav .navicon:hover {
+	line-height: 0px;
+	background-color: #FFF;
+	background-image: url(../images/navicon_hover.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#Mnav .navicon {
+	line-height: 0px;
+	float: right;
+	text-align: center;
+	background-image: url(../images/navicon.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 28px;
+	width: 28px;
+	background-color: #000;
+	border-left-color: #666;
+	border-right-color: #666;
+	border-bottom-color: #000;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000;
+}
+#Mnav  nav {display: block;float: left;width: 100%;}
+#Mnav  nav  span{margin-right: 5px;width: 10px;height: 10px;}
+#Mnav .nav ul{padding: 0;margin: 0;}
+#Mnav .nav li{
+	position: relative;
+	float: left;
+	color: #000;
+	list-style: none;
+	width: 30.33%;
+	background-color: #FAFAFA;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #D5D5D5;
+	padding-top: 5px;
+	padding-right: 1.5%;
+	padding-bottom: 5px;
+	padding-left: 1.5%;
+	font-size: 105%;
+}
+#Mnav .nav li a {
+                display: block;        
+                padding: 15px 30px;
+                color: #FFF;
+                text-decoration: none;
+            }
+
+#Mnav .nav li:hover {background-color: #EFEFEF;}
+#Mnav .arrow-bottom {
+	position: absolute;
+	top: 25px;
+	right: 13px;
+	margin-left: 5px;
+	border-top: 4px solid #FFF;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent;
+	width: 1px;
+	height: 1px;
+            }
+#Mnav .Mfb{
+	float: right;
+	position: absolute;
+	right: 30px;
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+	line-height: 29px;
+	font-size: 16px;
+	background-color: #47639e;
+}
+#Mnav .Mfb img{
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 3px;
+	margin-left: 5px;
+	height: 20px;
+	width: 20px;
+}
+
+/* ---------------行動1------------------*/
+@media screen and (max-width: 480px) {
+#Mnav .Mfb{
+	float: right;
+	position: absolute;
+	right: 35px;
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+	line-height: 29px;
+	font-size: 120%;
+	background-color: #47639e;
+	padding-right: 5px;
+	padding-bottom: 2px;
+}
+#Mnav .Mfb img{
+	margin-top: 3px;
+	margin-right: 5px;
+	margin-bottom: 3px;
+	margin-left: 5px;
+	height: 24px;
+	width: 24px;
+}
+
+/*---------------版頭------------------*/
+#Mnav {
+	display: block;
+	background-color: #000;
+	height: 33px;
+	width: 100%;
+}
+#Mnav .logo {line-height: 0px;float: left;}
+#Mnav .logo img {line-height: 0px;height: 25px;width: 65px;margin-top: 5px;margin-right: 5px;margin-left: 10px;}
+#Mnav .navicon:hover {line-height: 0px;background-color: #FFF;background-image: url(../images/navicon_m_hover.png);background-repeat: no-repeat;background-position: center;}
+#Mnav .navicon {line-height: 0px;height: 33px;width: 33px;background-image: url(../images/navicon_m.png);background-repeat: no-repeat;background-position: center;}
+#Mnav nav {font-size:95%;}
+#Mnav nav span{margin-right: 3px;width: 8px;height: 8px;border-radius: 50%;}
+#Mnav nav li{
+	padding-top: 10px;
+	padding-right: 1.5%;
+	padding-bottom: 10px;
+	padding-left: 1.5%;
+	width: 30.33%;
+	font-size: 105%;
+}
+/*---------------版頭------------------*/
+}
+
+
+#Mnav .point1{display: inline-block;border-radius: 50%;background-color: #e20000;}
+#Mnav .point2{display: inline-block;border-radius: 50%;background-color: #ff9934;}
+#Mnav .point3{display: inline-block;border-radius: 50%;background-color: #ff6766;}
+#Mnav .point4{
+	display: inline-block;
+	border-radius: 50%;
+	background-color: #00ccff;
+}
+#Mnav .point5{
+	display: inline-block;
+	border-radius: 50%;
+	background-color: #33cb98;
+}
+#Mnav .point6{
+	display: inline-block;
+	border-radius: 50%;
+	background-color: #99cc33;
+}
+#Mnav .point7{
+	display: inline-block;
+	border-radius: 50%;
+	background-color: #6766cc;
+}
+#Mnav .point8{
+	display: inline-block;
+	border-radius: 50%;
+	background-color: #3398cc;
+}
+#Mnav .point9{display: inline-block;border-radius: 50%;background-color: #b7770d;}
+
+#Mfooter{
+margin-right: auto;
+margin-left: auto;padding:2px 0;font-size:0.75em;display:block;width:100%;bottom:0px;text-align:center;line-height:20px;letter-spacing:1px;background-color: #000;color: #FFF;}
+#Mfooter p{display:inline-block;margin:0 8px;}	
+#Mfooter a{color: #FFFFFF;text-decoration: underline;}
+#Mfooter a:hover{color:#FF9900;}
+#nav{display: block;}
+#Mnav{display: none;}
+#footer{display: block;}
+#Mfooter{display: none;}
+/* ---------------行動裝置版頭版宣------------------*/
+@media screen and (max-width: 768px) {
+#Mnav{display: block;}
+#nav{display: none;}
+#Mfooter{display: block;}
+#footer{display: none;}	
+}
