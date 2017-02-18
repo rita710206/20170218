@@ -1,0 +1,252 @@
+@charset "utf-8";
+body{
+	color: #8a94a2;
+	background: #000;
+	text-align: center;
+	font-size: 14px;
+}
+a{ text-decoration: none;}
+.wrap{
+	width: 100%;
+	max-width: 768px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.testbox{
+border:1px solid  blue;
+vertical-align: middle;
+/* margin:0 auto; */
+/* max-width:80%; */
+margin: 0 5%;
+}
+.range{
+max-width:100%;
+margin:0 auto;
+padding:2% 9% 2% 11%;
+}
+.range_ege{ max-width:90%;}
+.range_tlt{ margin: 0 5%;}
+
+/* 卷軸 420*/
+.content{
+	height: 420px;
+	overflow-y:auto;
+	-webkit-overflow-scrolling: touch;
+	/*z-index: 1;*/
+	font-size:3.43755%;
+}
+
+.cardwrap{
+	max-width: 94%;
+	background-color: #fdfdfd;
+	border-radius: 3px;
+	line-height: 1.5;
+	position: relative;
+	height: 500px;
+	margin-top: 15%;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+.cardwrap_h{
+width:94%;
+height: 90%;
+margin:15% auto;
+background-color:#fdfdfd;
+border-radius: 3px;
+line-height:1.5;
+position:relative;
+
+}
+
+/* 主標 */
+/* 項目標題 */
+ .itemtitle{
+ 	font-size:16px;
+ 	color: #8a94a2;
+ 	border-top: 1px solid #8a94a2 ;
+ 	border-bottom: 1px solid #8a94a2 ;
+ 	padding: 5px 0;
+ 	margin: 0  5% ;
+ }
+/* 提醒您 */
+
+ .list_fsize{
+}
+/* 顏色 */
+.lightgray{ color: lightgray;}
+.darkgray{ color: darkgray;}
+.titlesize{ font-size: 16px; font-weight: bold;}
+.titlecolor{ color: #515255;}
+.lettercolor{ color: #757e8a;}
+.vicolor-g{ color: #25c19c;}
+.vicolor-gy{ color: #25c17d;}
+.vicolor-o{ color: #f76f25;}
+.basecolor{color: #8a94a2;} }
+.c_wwr{ color: #e51101;}
+.c_base { color: #25c19c;}
+.c_base2{color: #028d6c;}
+.fff{ color: #fff;}
+.bl{color:#262423;}
+.em{ color: #f76f25;}
+.em_bg{ background-color: #f76f25;}
+.t_bold{font-weight: bold;}
+
+
+/* 卡片 */
+.carddark{ background-color: #3C599B;}
+.cardlight{
+	padding:4.166666% 0;
+	background-color: #f3f4f6;
+	border-radius: 3px;
+}
+
+/* 推開 push*/
+ .air{padding: 3% 0 2%;}
+ .air_tb{padding: 0 5px ;}
+ .part_tb{ height: 1em;}
+ .part_height{ height: 1em;}
+
+ .lineheight-s{line-height: 1.2em;}
+ .lineheight-m{line-height: 1.5em;}
+
+ .hrset{
+	margin:1% 5% 1% ;
+	color: #8a94a2;
+}
+ol.list_l ,.list_l{
+font-size:16px;
+line-height: 1.5;
+}
+
+
+ /* 關閉按鈕 */
+.closethebox {
+position:absolute;
+top:-30px;
+right: 0;
+z-index:999;
+}
+.closethebox img{
+	 vertical-align: middle;
+	 width:20px;
+	 height:auto;
+	}
+/* 按鈕 */
+.btn_submit{
+	margin: 0 auto;
+	padding:2% 0;
+}
+.btn_submit a{color: #fff;}
+.btn_submit a:foces { opacity: 0.7;}
+.btn_catch, .btn_catch_pay{
+	width:30%;
+	border:1px solid #717d8f;
+	border-radius: 2px;
+	margin:3% auto;
+	text-align: center;
+}
+
+
+/* 房型內容 */
+.roompic{
+	background-color:#000;
+	height:100px;}
+.room_list{
+font-size: 12px;}
+
+.room_list ol{  list-style-type: disc;}
+
+/* 燈箱測試 */
+.overlay{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.5);
+}
+.lightbox{
+	z-index: 1;
+}
+
+/* css table */
+.css_table{
+	width:90%;
+
+	display:table;
+	border-collapse:collapse;
+
+}
+.css_tr{
+	display: table-row;
+}
+.css_td {
+	display:table-cell;
+	border:1px solid #000;
+	text-align:center;
+	vertical-align:middle;
+	text-align: left;
+	padding: 1.55555%;
+	}
+.td_01{ width :40%;}
+
+
+
+/* table_regular */
+.wrap_table{
+	max-width: 768px;
+/* 	margin-bottom: 1em; */
+	overflow-x: auto;
+	/* margin: 0  5%; */
+	padding:3% 0;
+}
+.table_regular{
+	width:560px;
+	overflow-x:auto;
+}
+.table_regular td,
+.table_regular th{
+border: 1px solid #757e8a;
+padding: 5px;
+text-align: center;
+font-size: 10px;
+}
+.table_regular td{
+	text-align:left;
+}
+.table_regular td span{
+	color:#e51101;
+
+}
+
+.table_regular th{
+color:#515255;
+font-weight: bold;
+}
+
+/* 人名筆記 */
+
+.note_name{}
+.note_name input{
+/* float: left; */
+}
+.note_name input.lab_l{
+
+}
+/* 訂房規則清單 */
+
+ol ul.ul_disc{
+	list-style-type:disc;
+	list-style-position: inside;
+	}
+
+
+@media (min-width:640px){
+.table_regular{
+	width:100%;
+}
+
+}
