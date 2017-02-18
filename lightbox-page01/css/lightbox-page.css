@@ -29,9 +29,9 @@ padding:2% 9% 2% 11%;
 .range_tlt{ margin: 0 5%;}
 
 /* 卷軸 420*/
-.content{
+.content_ppp{
 	height: 420px;
-	overflow-y:auto;
+	overflow:auto;
 	-webkit-overflow-scrolling: touch;
 	/*z-index: 1;*/
 	font-size:3.43755%;
